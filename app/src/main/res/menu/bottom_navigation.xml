@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_medium"
+        android:enabled="true"
+        android:icon="@drawable/ic_folder_shared_black_24dp"
+        android:title="Medium"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_wasd"
+        android:enabled="true"
+        android:title="Wasd"
+        android:icon="@drawable/ic_laptop_windows_black_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_android"
+        android:enabled="true"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Android"
+        app:showAsAction="ifRoom"/>
+</menu>
