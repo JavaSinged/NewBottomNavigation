@@ -6,19 +6,34 @@
         android:enabled="true"
         android:icon="@drawable/ic_folder_shared_black_24dp"
         android:title="Medium"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="withText" />
 
     <item
         android:id="@+id/action_wasd"
         android:enabled="true"
-        android:title="Wasd"
         android:icon="@drawable/ic_laptop_windows_black_24dp"
-        app:showAsAction="ifRoom"/>
+        android:title="Wasd"
+        app:showAsAction="withText" />
 
     <item
         android:id="@+id/action_android"
         android:enabled="true"
         android:icon="@drawable/ic_android_black_24dp"
         android:title="Android"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_mediu"
+        android:enabled="true"
+        android:icon="@drawable/ic_folder_shared_black_24dp"
+        android:title="Medium"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/action_was"
+        android:enabled="true"
+        android:icon="@drawable/ic_laptop_windows_black_24dp"
+        android:title="Wasd"
+        app:showAsAction="withText" />
+
 </menu>
